@@ -39,4 +39,12 @@
 #music5{
 	color: red;
 }
+body {
+      padding: 20px;
+      background: linear-gradient(
+          rgba(255, 255, 255, 0.6),
+          rgba(255, 255, 255, 0.6)
+        ),
+        url(images/menu.png) center/cover fixed;
+    }
 
