@@ -50,9 +50,9 @@ function changeColor() {
         green = 90
     }
     else if (red <= 90 && ccolor == "lastRed") {
-        ccolor = "blue"
-        red = 0
-        blue = 90
+        ccolor = "blue";
+        red = 0;
+        blue = 90;
     }
     
     document.getElementById("h1").style.color = "rgb(" + red + ", " + green + ", " + blue + ")";
